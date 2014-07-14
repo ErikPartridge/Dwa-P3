@@ -1696,5 +1696,96 @@
             "framework",
             "laravel"
         ]
+    },
+    {
+        "name": "badcow/lorem-ipsum",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/samuelwilliams/LoremIpsum.git",
+            "reference": "568f94bada0f7c95f69fabd6e7007148f90c31b0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/samuelwilliams/LoremIpsum/zipball/568f94bada0f7c95f69fabd6e7007148f90c31b0",
+            "reference": "568f94bada0f7c95f69fabd6e7007148f90c31b0",
+            "shasum": ""
+        },
+        "time": "2013-03-05 07:52:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Badcow": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sam Williams",
+                "email": "sam@badcow.co"
+            },
+            {
+                "name": "Mathew Tinsley",
+                "email": "tinsley@tinsology.net"
+            }
+        ],
+        "description": "Lorem ipsum generator."
+    },
+    {
+        "name": "fzaninotto/faker",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fzaninotto/Faker.git",
+            "reference": "9b653ae03a4c4e0626099661798ae07d332d3a08"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/9b653ae03a4c4e0626099661798ae07d332d3a08",
+            "reference": "9b653ae03a4c4e0626099661798ae07d332d3a08",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "time": "2014-07-10 07:29:43",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.5.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Faker": "src/",
+                "Faker\\PHPUnit": "test/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "François Zaninotto"
+            }
+        ],
+        "description": "Faker is a PHP library that generates fake data for you.",
+        "keywords": [
+            "data",
+            "faker",
+            "fixtures"
+        ]
     }
 ]

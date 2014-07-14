@@ -1,10 +1,12 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"name": "erikmp/p3",
+	"description": "Project 3 for DWA15",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+        "badcow/lorem-ipsum": "dev-master",
+        "fzaninotto/faker": "1.5.*@dev"
 	},
 	"autoload": {
 		"classmap": [

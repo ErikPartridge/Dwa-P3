@@ -1,6 +1,10 @@
 body{
-    font: 'Avenir', sans-serif;
+    font-family: 'Avenir';
     background: #F3F3F3;
     color: #313131;
-
+}
+.lipsum {
+    font-family: 'Avenir';
+    background: #F3F3F3;
+    color: #313131;
 }

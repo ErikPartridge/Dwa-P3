@@ -10,29 +10,19 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+use \Badcow\LoremIpsum as Lipsum;
 
 Route::get('/', function()
 {
 	return View::make('hello');
 });
 
-Route::get('/password/{words?}/{caps?}/{symbol?}/{number?}', function($words = 3, $caps = false, $symbol = false, $number = false){
-
-    $url = "http://p2.erikpartridge.com/?number=".$words;
-    if($caps){
-        $url = $url."&capital=capital";
-    }
-    if($symbol){
-        $url = $url."&symbol=symbol";
-    }
-    if($number){
-        $url = $url."&num=num";
-    }
-    $url = $url."#";
-    $html = file_get_contents($url);
-    return $html;
-});
-
-Route::get('/lipsum/{words?}', function($words = 200){
+Route::get('/lipsum/{paragraphs?}', function($paragraphs = 5){
+    return View::make('lipsum')->with('paragraphs', $paragraphs);
 
 });
+
+Route::get('/user/{number?}', function($number){
+        return View::make('user')->with('number', $number);
+});
+

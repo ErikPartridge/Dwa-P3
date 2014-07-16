@@ -9,7 +9,9 @@ Lorem Ipsum Text
 
 <?php
 use \Badcow\LoremIpsum as Lipsum;
+// Make it take whole screen, because there is so much text
 $style = "<style> body{padding-right: 0%; padding-left: 0%;}</style>";
+
 $gen = new Lipsum\Generator();
 
 $text = $gen->getParagraphs($paragraphs);

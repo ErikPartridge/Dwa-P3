@@ -8,6 +8,7 @@
 
 class UserController extends BaseController {
 
+    //Get data from post, and use it to make users
     public function makeUsers(){
         $number = Input::get('users');
         return View::make('user', array('number' => $number));

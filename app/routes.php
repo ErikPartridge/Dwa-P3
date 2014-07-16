@@ -22,7 +22,7 @@ Route::get('/lipsum/{paragraphs?}', function($paragraphs = 5){
 
 });
 
-Route::get('/user/{number?}', function($number){
+Route::get('/user/{number?}', function($number = 1){
         return View::make('user')->with('number', $number);
 });
 

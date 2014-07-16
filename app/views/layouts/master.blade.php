@@ -7,7 +7,6 @@
         <meta name="author" content="Erik Malmstrom-Partridge">
         <title>@yield('title')</title>
     </head>
-
     <body>
         @yield('content')
     </body>

@@ -5,7 +5,7 @@ Developer Helper
 @stop
 
 @section('content')
-<form action = "action.blade.php" method="get">
+<form action = "#" method="get">
     How Many Users? <input type="number" name="usr" value="3">
 </form>
 

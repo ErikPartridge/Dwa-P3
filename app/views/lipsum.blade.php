@@ -1,7 +1,7 @@
 @extends('layouts/master')
 
 @section('title')
-Generated {{$paragraphs}} paragraphs of Text
+Lorem Ipsum Text
 @stop
 
 

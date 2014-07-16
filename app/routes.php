@@ -26,3 +26,6 @@ Route::get('/user/{number?}', function($number = 1){
         return View::make('user')->with('number', $number);
 });
 
+Route::post('/user', "UserController@makeUsers");
+
+Route::post('/lipsum', "LipsumController@makeLipsum");

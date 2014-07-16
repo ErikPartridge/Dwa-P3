@@ -1,6 +1,6 @@
 <!Doctype html>
 <html>
-    <!--- This is the master template for the main page --->
+    <!--- This extends the master template --->
     <head>
         <meta charset="UTF-8">
         {{ HTML::style("/css/main.css"); }}

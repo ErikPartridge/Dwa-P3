@@ -6,12 +6,18 @@ Developer Helper
 
 @section('content')
 <p>Welcome to developer helper! This site is designed to provide useful tools to developers, and to be easy to access
-from your own program. To get # number of paragraphs of lorem ipsum text, go to p3.erikpartridge.com/lipsum/#, or see the
-{{link_to('lipsum', "default five here", $attributes = array(), $secure = null);}}. The text
-will be formatted as HTML, with the text starting on line 13. For # number of random users, go to p3.erikpartridge.com/user/#
-or get a {{link_to('user', "sample user", $attributes = array(), $secure = null);}}.
-Users will be separated by a break and paragraph tags, starting on line 12. Please enjoy the site!
+from your own program. Please enjoy the site!
 </p>
-{{link_to('lipsum/1', "One paragraph lipsum", $attributes = array(), $secure = null);}}    {{link_to('user', "One User", $attributes = array(), $secure = null);}} <br>
+{{Form::open(array('url' => 'user', 'method' => 'post'))}}
+    How many users do you want to generate?<br>
+    <input type="number" name = "users" value="12"/> <br>
+    {{Form::submit('Fake Some Identities!')}}
+{{Form::close()}}
+<br>
+{{Form::open(array('url' => 'lipsum', 'method' => 'post'))}}
+    How many paragraphs of lorem ipsum?<br>
+    <input type="number" name = "nums" value="12"/> <br>
+    {{Form::submit('Make Some Lorem Ipsum!')}}
+{{Form::close()}}
 
 @stop

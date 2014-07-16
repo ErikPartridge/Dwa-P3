@@ -12,4 +12,6 @@ will be formatted as HTML, with the text starting on line 13. For # number of ra
 or get a {{link_to('user', "sample user", $attributes = array(), $secure = null);}}.
 Users will be separated by a break and paragraph tags, starting on line 12. Please enjoy the site!
 </p>
+{{link_to('lipsum/1', "One paragraph lipsum", $attributes = array(), $secure = null);}}    {{link_to('user', "One User", $attributes = array(), $secure = null);}} <br>
+
 @stop

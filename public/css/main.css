@@ -1,7 +1,10 @@
 body{
     font-family: 'Avenir';
-    background: #F3F3F3;
     color: #313131;
+    padding-right: 30%;
+    padding-left: 30%;
+    align-content: center;
+    background-color:#F3F3F3;
 }
 .lipsum {
     font-family: 'Avenir';

@@ -1,6 +1,6 @@
 ## Project 3 - Developer Helper
 
-Project 3 by Erik Malmstrom-Partridge available on p3.erikpartridge.com
+Project 3 by Erik Malmstrom-Partridge available on stathack.com (I know, domain doesn't fit the purpose, but it was the only hosting plan of mine I could make it work on).
 
 ##  Documentation
 
